@@ -45,7 +45,7 @@ export function FirebaseProvider({ children }) {
   const _getActionCodeSettings = () => {
     return {
       // url: "https://www.example.com/?email=" + currentUser.email,
-      url: `https://${FIREBASE_AUTHDOMAIN}/?email=${currentUser.email}`,
+      url: `https://${FIREBASE_AUTH_DOMAIN}/?email=${currentUser.email}`,
       iOS: {
         bundleId: "com.uberclone",
       },
