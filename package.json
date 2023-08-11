@@ -9,15 +9,48 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~49.0.7",
+    "@faker-js/faker": "^8.0.2",
+    "@gorhom/bottom-sheet": "^4.4.7",
+    "@react-native-async-storage/async-storage": "^1.19.1",
+    "@react-navigation/devtools": "^6.0.19",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "country-codes-list": "^1.6.11",
+    "expo": "^44.0.6",
+    "expo-app-loading": "^1.0.3",
+    "expo-firebase-recaptcha": "^1.4.4",
     "expo-status-bar": "~1.6.0",
+    "faker": "^6.6.6",
+    "firebase": "^8.6.8",
+    "intl": "^1.2.5",
+    "moment": "^2.29.4",
     "react": "18.2.0",
-    "react-native": "0.72.3"
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.3",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-element-dropdown": "^2.9.0",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "^2.12.1",
+    "react-native-maps": "^1.7.1",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-safe-area-context": "^4.7.1",
+    "react-native-web": "~0.19.6",
+    "react-redux": "^8.1.2",
+    "redux-persist": "^6.0.0",
+    "tailwind-react-native-classnames": "^1.5.1",
+    "expo-location": "~14.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.0.14",
+    "@types/react-native": "^0.72.2",
     "typescript": "^5.1.3"
   },
-  "private": true
+  "private": true,
+  "description": "Box Mobile, proyecto de ecomerce paracontratar las  entregas del mismo dia",
+  "author": "jpcode",
+  "license": "ISC"
 }
