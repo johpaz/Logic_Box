@@ -4,7 +4,7 @@ import { Icon } from "react-native-elements";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useSelector } from "react-redux";
 import tw from "tailwind-react-native-classnames";
-import { APP_NAME } from "../../App";
+import { APP_NAME } from "../..//../App";
 import BackButton from "../../components/BackButton";
 import { useFirebase } from "../../contexts/FirebaseContext";
 import { selectUser } from "../../features/userSlice";

@@ -21,6 +21,7 @@
     "expo": "^44.0.6",
     "expo-app-loading": "^1.0.3",
     "expo-firebase-recaptcha": "^1.4.4",
+    "expo-location": "~14.0.1",
     "expo-status-bar": "~1.6.0",
     "faker": "^6.6.6",
     "firebase": "^8.6.8",
@@ -41,7 +42,7 @@
     "react-redux": "^8.1.2",
     "redux-persist": "^6.0.0",
     "tailwind-react-native-classnames": "^1.5.1",
-    "expo-location": "~14.0.1"
+    "ws": "^8.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
