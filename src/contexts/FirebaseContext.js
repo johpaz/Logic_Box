@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext, useState, useEffect } from "react";
 // eslint-disable-next-line import/no-unresolved
-import { FIREBASE_AUTHDOMAIN } from "@env";
+import { FIREBASE_AUTH_DOMAIN } from "@env";
 import { reauthenticateWithCredential, signInWithEmailAndPassword, sendEmailVerification, PhoneAuthProvider, updateProfile, signOut } from "firebase/auth";
 import { setUser } from "../features/userSlice";
 import app, { auth } from "../firebase";
